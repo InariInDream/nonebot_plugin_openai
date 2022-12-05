@@ -16,7 +16,7 @@ try:
 except:
     openai.api_key = ""
 
-chat = on_command("/chat",  priority=5, block=False)
+chat = on_command(".chat",  priority=5, block=False)
 
 
 @chat.handle()
