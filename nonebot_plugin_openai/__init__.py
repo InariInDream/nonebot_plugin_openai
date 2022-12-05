@@ -41,4 +41,4 @@ async def _(event: GroupMessageEvent, arg: Message = CommandArg()):
     response = openai.Completion.create(engine=data["model"], prompt=data["prompt"], max_tokens=data["max_tokens"], n=1, temperature=data["temperature"])
 
     # 打印返回的结果
-    print(response["choices"][0]["text"])
+    await chat.finish(response["choices"][0]["text"])
