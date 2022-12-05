@@ -12,7 +12,7 @@ from nonebot.adapters.onebot.v11 import (
 
 # 设置访问密钥
 try:
-    openai.api_key = get_driver().config.API_KEY
+    openai.api_key = get_driver().config.api_key
 except:
     openai.api_key = ""
 
