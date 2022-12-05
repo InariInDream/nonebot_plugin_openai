@@ -1,7 +1,7 @@
 # nonebot_plugin_openai
 
 配置：
-在env里输入`api_key="YOUR_API_KEY"
+在env里输入`api_key="YOUR_API_KEY"`
 
 我如何获取一个API_KEY
 
