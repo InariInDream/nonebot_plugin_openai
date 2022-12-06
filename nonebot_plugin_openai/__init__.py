@@ -31,7 +31,7 @@ async def _(event: GroupMessageEvent, arg: Message = CommandArg()):
     # 设置请求数据
     data = {
         "prompt": f"{args}",
-        "model": "text-davinci-002",
+        "model": "text-davinci-003",
         "max_tokens": 512,
         "temperature": 0.5,
 
